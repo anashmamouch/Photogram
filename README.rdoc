@@ -11,4 +11,5 @@ Steps:
 7. create a resources route for posts controller in routes.rb file
 
 8. create a model Post with only a string caption
-9. run the "rake db:migrate" to run the migrations 
+9. run the "rake db:migrate" to run the migrations
+10. Add the image uploading functionality through he gem  
