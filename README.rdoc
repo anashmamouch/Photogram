@@ -12,4 +12,12 @@ Steps:
 
 8. create a model Post with only a string caption
 9. run the "rake db:migrate" to run the migrations
-10. Add the image uploading functionality through he gem  
+10. add the image uploading functionality through he gem
+11. create the new action inside the posts_controller.rb
+12. create a new.html.erb page inside app/views/posts/ folder
+13. add the simple_form gem to the Gemfile
+14. create a form using simple_form gem
+15. write the code to save data inside the create action at posts_controller.rb
+16. add a redirect_to posts_path to redirect to the index page
+17. create an instance variable @posts = Post.all inside the index action
+18. output all the posts from the database in your index view
