@@ -21,3 +21,7 @@ Steps:
 16. add a redirect_to posts_path to redirect to the index page
 17. create an instance variable @posts = Post.all inside the index action
 18. output all the posts from the database in your index view
+
+19. add the bootstrap-sass gem for the styling
+20. create the bootstrap navbar
+21. styling the feed and adding some css
