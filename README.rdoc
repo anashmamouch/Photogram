@@ -42,4 +42,12 @@ DRY
 31. create a private method that sets the post we are trying to identify
 
 Flash
-32. adding flash messages to views and the controller 
+32. adding flash messages to views and the controller
+
+Login & User interaction
+33. install the devise gem
+34. generate devise views
+35. add a username column to the database
+36. create the RegistrationController for the username
+37. create a _navbar.html.erb partial and add the login and registration routes
+38. each post must have an associated user
