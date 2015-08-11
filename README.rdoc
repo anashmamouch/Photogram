@@ -2,6 +2,7 @@ Photogram
 instagram clone built in Ruby on Rails 4
 
 Steps:
+Setup & Start
 1. run the command: "rails new Photogram"
 2. test in the sever with the command "rails s" at localhost:3000
 3. initialize git repository and make the first commit
@@ -10,6 +11,7 @@ Steps:
 6. create a index.html.erb page inside app/views/posts/ folder
 7. create a resources route for posts controller in routes.rb file
 
+Database & Modeling
 8. create a model Post with only a string caption
 9. run the "rake db:migrate" to run the migrations
 10. add the image uploading functionality through he gem
@@ -22,6 +24,22 @@ Steps:
 17. create an instance variable @posts = Post.all inside the index action
 18. output all the posts from the database in your index view
 
+Styling & Bootstrap
 19. add the bootstrap-sass gem for the styling
 20. create the bootstrap navbar
 21. styling the feed and adding some css
+22. create a show action inside the posts_controller.rb
+23. create a show.html.erb where you can show only one post
+24. create an edit action inside the posts_controller.rb
+25. create an edit.html.erb view where you can edit your post
+26. create an update action that will persist the changes inside the database
+27. add the edit links to the pages
+28. create a destroy action to delete post from database
+29. add the delete links to the pages
+
+DRY
+30. create a _form.html.erb partial form to render in all pages
+31. create a private method that sets the post we are trying to identify
+
+Flash
+32. adding flash messages to views and the controller 
