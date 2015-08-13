@@ -51,3 +51,5 @@ Login & User interaction
 36. create the RegistrationController for the username
 37. create a _navbar.html.erb partial and add the login and registration routes
 38. each post must have an associated user
+39. adjusting the code for the new and create actions in the posts controller
+40. 
