@@ -18,10 +18,16 @@
          src: url(/assets/ProximaNova-Regular.otf) format("truetype");
      }
 $font-family-base: "Proxima Nova";
+
+
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ html{
+   height: 100%;
+ }
  body {
    background-color: #fafafa;
+    height: 100%
 
  }
 
@@ -104,6 +110,8 @@ $font-family-base: "Proxima Nova";
   .user-name, .caption-content {
     display: inline;
   }
+
+  /* ## COMMENT CUSTOMISATIONS ## */
   #comment {
     margin-top: 7px;
     .user-name {
@@ -158,4 +166,58 @@ $font-family-base: "Proxima Nova";
 .edit-links {
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+/* ## REGISTRATION CUSTOMISATIONS ## */
+.registration-bg {
+  padding-top: 4em;
+  height: 100%;
+  background: image-url('registrationbg.jpeg') ;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.login-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('bus.jpeg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.log-in{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  border: none;
+}
+
+.panel {
+  border-radius: 8px;
+}
+
+.panel-heading{
+  h1 {
+    text-align: center;
+  }
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.alert {
+  margin-bottom: 0px;
+}
+
+#image-preview {
+  margin: 0px auto;
+}
+
+#post_image {
+  padding: 1em;
+  margin: 0px auto;
 }
