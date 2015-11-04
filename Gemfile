@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.3'
-gem 'sqlite3'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'sass-rails', '~> 5.0'
 
@@ -22,8 +21,13 @@ gem 'kaminari', '~> 0.16.3'
 
 group :development, :test do
   gem 'byebug'
-
+  gem 'sqlite3'
   gem 'web-console', '~> 2.0'
 
   gem 'spring'
+end
+
+  group :production do
+  gem 'pg'
+  gem 'rails_12factor'
 end
